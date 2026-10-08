@@ -1,0 +1,17 @@
+{
+  "schema": "fund.mithril.interop.plugin.v1",
+  "id": "fund.mithril.siso.c2sim",
+  "version": "0.2.0",
+  "rpcVersion": 1,
+  "entryPoint": "mithril_c2sim.plugin:Plugin",
+  "operations": [
+    "c2sim-import",
+    "c2sim-project"
+  ],
+  "standard": "OpenC2SIM-SMX-LOX-1.0.1",
+  "effects": {
+    "network": false,
+    "nativeProcess": false,
+    "rf": false
+  }
+}
