@@ -4,7 +4,7 @@ from mithril_interop import Refusal
 from mithril_xml import native_xml as xml
 ROOT=Path(__file__).parent
 class Plugin:
-    id='fund.mithril.siso.c2sim'
+    id='fund.mithril.lib.siso.c2sim'
     rpc_version=1
     operations=('c2sim-import', 'c2sim-project')
     @staticmethod

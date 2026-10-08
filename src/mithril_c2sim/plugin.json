@@ -1,7 +1,7 @@
 {
-  "schema": "fund.mithril.interop.plugin.v1",
-  "id": "fund.mithril.siso.c2sim",
-  "version": "0.2.0",
+  "schema": "fund.mithril.lib.interop.plugin.v1",
+  "id": "fund.mithril.lib.siso.c2sim",
+  "version": "0.3.0",
   "rpcVersion": 1,
   "entryPoint": "mithril_c2sim.plugin:Plugin",
   "operations": [

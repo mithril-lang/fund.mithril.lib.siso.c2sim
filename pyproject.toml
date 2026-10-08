@@ -3,13 +3,13 @@ requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "fund-mithril-siso-c2sim"
-version = "0.2.0"
+name = "fund-mithril-lib-siso-c2sim"
+version = "0.3.0"
 requires-python = ">=3.11"
-dependencies = ["fund-mithril-interop @ git+https://github.com/mithril-lang/fund.mithril.interop.git@dee5c5a85e62e1383dac85a65960049385af8532", "fund-mithril-xml @ git+https://github.com/mithril-lang/fund.mithril.xml.git@954fa537cb4d17870f9acf016cebb2b9661329cd"]
+dependencies = ["fund-mithril-lib-interop @ git+https://github.com/mithril-lang/fund.mithril.lib.interop.git@8ec10c56678eb6508515e2eafdb41ace4866a654", "fund-mithril-lib-xml @ git+https://github.com/mithril-lang/fund.mithril.lib.xml.git@dc1fbf7d79367667c927166ce02dcd250cbab1c3"]
 
 [project.entry-points."mithril.interop.plugins"]
-"fund.mithril.siso.c2sim" = "mithril_c2sim.plugin:Plugin"
+"fund.mithril.lib.siso.c2sim" = "mithril_c2sim.plugin:Plugin"
 
 [tool.setuptools.packages.find]
 where = ["src"]

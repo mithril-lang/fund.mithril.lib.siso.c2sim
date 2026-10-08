@@ -1,4 +1,4 @@
-# fund.mithril.siso.c2sim
+# fund.mithril.lib.siso.c2sim
 
 Versioned C2SIM native XML profile plugin: `OpenC2SIM-SMX-LOX-1.0.1`.
 Operations: c2sim-import, c2sim-project. Bundled explicit XPath mapping; native source bytes remain preserved.
